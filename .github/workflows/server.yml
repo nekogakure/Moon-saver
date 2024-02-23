@@ -3,20 +3,15 @@ name: Server Runs🔆
 on:
     push:
         branches: [main]
-    # 本番環境になったら外す
-    # schedule:
-    # - cron: '0 22 * * *'
-    # - cron: '0 1 * * *'
-    # - cron: '0 4 * * *'
-    # - cron: '0 6 * * *'
+    
 
 jobs:
     build:
         runs-on: ubuntu-latest
 
         env:
-            pass: ${{ secrets.pass }}
-            user: ${{ secrets.user }}
+            pass: ${{ 04180418 }}
+            user: ${{ sei6sei }}
 
         steps:
             - uses: actions/checkout@v3
